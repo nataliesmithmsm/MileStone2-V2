@@ -3,6 +3,7 @@ import com.company.Mongo.ConnectionToMongo;
 import com.company.dataobjects.PersonalDetails;
 import com.mongodb.*;
 import com.mongodb.client.MongoCollection;
+import jdk.nashorn.internal.ir.debug.JSONWriter;
 
 import java.util.List;
 
@@ -33,7 +34,6 @@ public class MongoWriter {
 
             //inserting object into Mongodb table
             collection.insertOne(profileDBObject);
-
         }
 
     }

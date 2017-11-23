@@ -9,6 +9,7 @@ public class ConvertingBsonToJava {
 
     public static PersonalDetails convertingObject(BasicDBObject carInsuranceObject)
     {
+
         //Reading in Strings from mongo Collection
         String firstname = carInsuranceObject.getString("FirstName");
         String surname = carInsuranceObject.getString("Surname");

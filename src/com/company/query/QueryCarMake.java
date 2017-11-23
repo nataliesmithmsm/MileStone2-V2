@@ -33,6 +33,11 @@ public class QueryCarMake {
             //converting Mongo Object (BSON) to java object
             PersonalDetails personalDetails = ConvertingBsonToJava.convertingObject(carInsuranceObject);
 
+            //PersonalDetails personalDetails1 = ConversionJackson.convertingToJava(carInsuranceObject);
+
+            //ConversionJackson.convertingToJava2(carInsuranceObject);
+
+
             carMakeList.add(personalDetails);
             System.out.println(personalDetails);
         }
